@@ -27,6 +27,10 @@ namespace acidphantasm_armbandsforall.Patches
                 if (instr.opcode == OpCodes.Bne_Un_S && instructions[i - 1].opcode == OpCodes.Ldc_I4_4)
                 {
                     instructions[i] = new CodeInstruction(OpCodes.Br_S, instr.operand);
+                    instructions[i - 1].opcode = OpCodes.Nop;
+                    instructions[i - 2].opcode = OpCodes.Nop;
+                    instructions[i - 3].opcode = OpCodes.Nop;
+                    instructions[i - 4].opcode = OpCodes.Nop;
                 }
             }
 

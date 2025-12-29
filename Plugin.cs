@@ -4,7 +4,7 @@ using BepInEx;
 
 namespace acidphantasm_armbandsforall
 {
-    [BepInPlugin("com.acidphantasm.armbandsforall", "acidphantasm-armbandsforall", "1.0.0")]
+    [BepInPlugin("com.acidphantasm.armbandsforall", "acidphantasm-armbandsforall", "1.0.1")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
