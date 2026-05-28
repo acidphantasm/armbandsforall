@@ -4,9 +4,10 @@ using HarmonyLib;
 using SPT.Reflection.Patching;
 using System.Reflection;
 using System.Reflection.Emit;
+using EFT.GameTriggers;
 using EFT.InventoryLogic;
 
-namespace acidphantasm_armbandsforall.Patches
+namespace ArmbandsForAll.Patches
 {
     internal class ReplaceInventoryPatch : ModulePatch
     {
