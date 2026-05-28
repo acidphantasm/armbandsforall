@@ -7,7 +7,7 @@ using BepInEx.Configuration;
 using BepInEx.Logging;
 using UnityEngine;
 
-namespace acidphantasm_armbandsforall;
+namespace ArmbandsForAll;
 
 internal class VersionChecker
     {

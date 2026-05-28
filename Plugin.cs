@@ -1,8 +1,8 @@
 ﻿using System;
-using acidphantasm_armbandsforall.Patches;
+using ArmbandsForAll.Patches;
 using BepInEx;
 
-namespace acidphantasm_armbandsforall
+namespace ArmbandsForAll
 {
     [BepInPlugin("com.acidphantasm.armbandsforall", "acidphantasm-armbandsforall", "1.0.1")]
     public class Plugin : BaseUnityPlugin
